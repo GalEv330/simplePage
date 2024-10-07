@@ -1,0 +1,51 @@
+/* זוהי הערה ב-CSS */
+
+body {
+    font-family: Calibri, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 50px;
+    font-weight: bold;
+
+    background-image: url('images/2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    color: #333;
+    text-shadow: 2px 5px 3.5px rgba(0, 0, 0, 0.3);
+}
+
+img {
+    width: 100%;
+    max-width: 400px;
+}
+
+button {
+    padding: 15px 30px; /* הגדלת הרווח הפנימי סביב הטקסט */
+    height: 100px; /* הגדרת גובה הכפתור */
+    width: 200px; /* הגדרת רוחב הכפתור */    
+
+    background-image: url('images/3.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    font-family: Calibri, sans-serif;
+    text-shadow: 2px 5px 3.5px rgba(0, 0, 0, 0.3);
+    color: black;
+    font-weight: bold;
+    font-size: 29px;
+    border: none;
+    cursor: pointer;  /* משנה את הסמן כאשר מעבירים מעל הכפתור */
+    border-radius: 20px;
+    transition: background-color 0.3s ease, color 0.3s ease, opacity 0.3s ease; /* הוספת אפקט מעבר גם לצבע ולשקיפות */
+
+}
+
+button:hover {
+    color: white; /* שינוי צבע הטקסט ללבן בעת ריחוף */
+    opacity: 0.8; /* אפקט עמעום של הכפתור בעת ריחוף */
+}
